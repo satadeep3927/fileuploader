@@ -22,7 +22,7 @@ body {
     height: 180px;
     width: 350px;
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,11 +33,12 @@ body {
     height: 60px;
     opacity: 0.6;
     margin-bottom: 10px;
+    fill: white;
 }
 
 .upload-label {
     font-size: 14px;
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .file-container:not(.preview):hover {
@@ -60,7 +61,7 @@ body {
     transition: 0.2s;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 
     flex-direction: column;
     justify-content: center;
